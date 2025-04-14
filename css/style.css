@@ -514,7 +514,9 @@ body::after {
   margin-right: 15px
 }
 .header {
-  background-color: #2b2a29
+  background-color: #2b2a29;
+  position: relative;
+  z-index: 3
 }
 .header__container {
   border-bottom: .0625rem solid rgba(235,236,236,.1)
